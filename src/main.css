@@ -1,5 +1,15 @@
-.card {
+.title{
+  text-align: center;
+}
+
+.card{
+  border: 3px solid white;
+}
+
+.transcript-card {
   background-color: #1f1f1f;
   color: white;
   border: 3px solid white;
+  min-height: 5rem;
+  padding: 15px;
 }
