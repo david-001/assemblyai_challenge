@@ -57,5 +57,6 @@ def transcript_option_change(state):
 
 
 if __name__ == "__main__":
-    gui_service = Gui(page=page)
-    web_app = gui_service.run(title="Sophisticated Speech-to-Text", host="0.0.0.0", port="10000", debug=False, run_server=False)
+    Gui(page=page).run(page=page, title="Sophisticated Speech-to-Text", host="0.0.0.0", port="10000")
+    # gui_service = Gui(page=page)
+    # web_app = gui_service.run(title="Sophisticated Speech-to-Text", host="0.0.0.0", port="10000", debug=False, run_server=False)
